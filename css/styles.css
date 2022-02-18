@@ -1,0 +1,233 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+h1, h2 {
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
+  color: #387C6D;
+}
+
+/* Navigation */
+
+.navbar{
+  background-color: #F8F5F1;
+  background-color: rgba(248, 245, 241, 0.9);
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-brand{
+color: #387C6D !important;
+}
+
+.nav-link{
+  border-bottom: solid 5px #F8F5F1;
+  color: #387C6D !important;
+}
+
+.nav-link:hover {
+  border-bottom: solid 5px #E9896A;
+}
+
+/* Title */
+#title {
+  background-color: #F8F5F1;
+  color: #343F56;
+  padding: 0 10vw;
+  text-align: center;
+
+}
+
+.title-row{
+  min-height: 90vh;
+}
+
+.title-header{
+  position: relative;
+  z-index:1;
+}
+.title-description{
+    position: relative;
+    z-index:1;}
+
+.cloud-left-img{
+  width:50%;
+  position: absolute;
+  top: 25vh;
+  left: 5vh;
+}
+
+.cloud-right-img{
+  width:50%;
+  position: absolute;
+  top: 10vh;
+  right: 10vh;
+}
+.mountain-img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Featured Work */
+#featured-work{
+  background-color: #F8F5F1;
+  color: #343F56;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 10vw;
+}
+
+.featured-work-header{
+  padding: 5rem 0;
+}
+/* Contact Me */
+#contact-me{
+  background-color: #F8F5F1;
+  color: #343F56;
+  padding: 0 10vw;
+  text-align: center;
+}
+
+.contact-me-row{
+  min-height: 95vh;
+}
+.contact-me-btn{
+  border-bottom: solid 5px #387C6D;
+  color: #387C6D;
+  text-decoration: none;
+}
+
+.contact-me-btn:hover {
+  border-bottom: solid 5px #E9896A;
+  text-decoration: none;
+  color: #387C6D;
+}
+/* About */
+#about-title{
+
+  background-color: #F8F5F1;
+  color: #343F56;
+  min-height: 90vh;
+  padding: 0 10vw;
+  text-align: center;
+
+}
+
+.profile-img {
+  width: 120px;
+}
+
+/* Roles */
+#roles{
+  background-color: #F8F5F1;
+  color: #343F56;
+  min-height: 100vh;
+  text-align: center;
+  padding: 10vh 10vw;
+}
+
+.role-icon{
+  width: 20%;
+}
+.role-item{
+  padding: 20px;
+}
+/* Work + Life Page */
+#blog{
+  background-color: #F8F5F1;
+  color: #343F56;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 10vw;
+}
+.cloud-left-img-blog{
+  width:50%;
+  position: absolute;
+  top: 25vh;
+  right: 10vh;
+}
+
+.cloud-right-img-blog{
+  width:50%;
+  position: absolute;
+  top: 10vh;
+  left: 5vh;
+}
+
+.blog-entry{
+  text-align: left;
+  width: 70%;
+  margin: 5px auto;
+}
+
+@media (max-width: 1028px) {
+  .blog-entry{
+    text-align: left;
+    width: 85%;
+    margin: 5px auto;
+  }
+}
+
+.blog-date{
+  color: #387C6D;
+  text-align: right;
+}
+
+.blog-text{
+  font-size: 0.95rem;
+}
+
+
+/* Blog Page */
+#blog-page{
+  background-color: #F8F5F1;
+  color: #343F56;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 10vw;
+}
+
+.blog-page-header{
+  padding: 5rem 0 2rem;
+}
+
+/* Contact Page */
+#contact-page{
+  background-color: #F8F5F1;
+  color: #343F56;
+  padding: 0 10vw;
+  text-align: center;
+}
+
+.contact-page-row{
+  min-height: 85vh;
+}
+
+.contact-title{
+  padding: 5vh;
+}
+.text-box {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+#footer{
+  background-color: #F8F5F1;
+  color: #343F56;
+  font-size: 0.8rem;
+  text-align: center;
+  min-height: 5vh;
+}
+
+.link-green{
+    color: #387C6D;
+}
+
+.link-green:hover{
+    color: #E9896A;
+}
